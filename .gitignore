@@ -1,25 +1,23 @@
-# CakePHP 3
+*.DS_Store
+.user.ini
+.well-known/
+.vscode
+.idea
 
-/vendor/*
-/config/app.php
+conf/*.php
+upload/attach/*
+upload/avatar/*
+upload/forum/*
+upload/tmp/*
+!*/.gitkeep
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+umeditor-dev
+ueditor-dev
+view/img/logo-2.png
+view/bootstrap/node_modules
 
-/logs/*
-!/logs/empty
+tmp/*
+log/*
 
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+plugin/*/*.zip
+plugin/*/*.json
