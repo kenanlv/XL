@@ -37,6 +37,7 @@ if($action == 'create') {
 	} else {
 		
 		// hook thread_create_thread_start.php
+		// here
 		
 		$fid = param('fid', 0);
 		$forum = forum_read($fid);
